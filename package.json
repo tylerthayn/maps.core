@@ -1,0 +1,20 @@
+{
+    "name": "@tyler.thayn/maps.core",
+    "version": "1.2.0",
+    "description": "",
+    "main": "./dist/maps.js",
+    "scripts": {
+        "make": "grunt make",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "grunt": "^1.4.1"
+    },
+    "dependencies": {
+        "@turf/turf": "^6.5.0",
+        "@tyler.thayn/js.core": "^0.6.2",
+        "geojson-stream": "^0.1.0"
+    }
+}
